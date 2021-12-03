@@ -143,11 +143,7 @@ a
 }
 .pariscard
 {
-/* position: absolute;
-top:5%;
-bottom: 0; 
-left: 0;
- right: 5%;  */
+
  position: relative;
  bottom:100px;
  margin: auto;
@@ -173,6 +169,12 @@ left: 0;
     left:6rem;
    
 }
+a
+{
+    text-decoration: none;
+    color:tomato;
+}
+
 
 
 
