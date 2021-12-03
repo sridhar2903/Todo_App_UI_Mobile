@@ -1,0 +1,274 @@
+
+.tadd
+{
+
+justify-content: center;
+position: relative;
+top:150px;
+right:140px;
+display:flex;
+/* font-size: 65px; */
+
+}
+.tasklist
+{
+    font-size: 65px;
+    font-weight: bolder;
+}
+.add
+{
+    position: relative;
+    left:325px;
+    top:-20px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightslategray;
+
+}
+
+
+.ptodo
+{
+    display: flex;
+    position: relative;
+    top:150px;
+    right:30px;
+    justify-content: center;
+}
+.paris
+{
+ font-size: 28px;
+ border:tomato 2px solid;
+padding-top:30px;
+padding-left: 30px;
+border-radius: 10px;
+padding-bottom: 168px;
+box-shadow:silver 8px 8px 15px ;
+}
+.todo
+{
+    position: relative;
+    left: 75px;
+    font-size: 28px;
+ border:tomato 2px solid;
+padding-top:30px;
+padding-left: 30px;
+border-radius: 10px;
+padding-bottom: 150px;
+box-shadow:silver 8px 8px 15px ;
+
+}
+.mylist
+{
+    position: relative;
+    left: 150px;
+    font-size: 28px;
+ border:tomato 2px solid;
+padding-top:30px;
+padding-left: 30px;
+border-radius: 10px;
+padding-bottom: 150px;
+box-shadow:silver 8px 8px 15px ;
+}
+#hrl
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 15px;
+    color:red;
+    text-decoration-line: line-through;
+    text-decoration-line: ;
+    
+   
+}
+#hrl1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 15px;
+    color:red;
+    text-decoration-line: line-through;
+}
+#hrl2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-right: 15px;
+    color:red;
+    text-decoration-line: line-through;
+}
+#pend
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    position: relative;
+    top: 10px;
+}
+#pend1
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    position: relative;
+    top: 10px;
+}
+#pend2
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    position: relative;
+    top: 10px;
+}
+#icon
+{
+    position: relative;
+    right: 20px;
+    top:3px;
+}
+#sqicon
+{
+position: relative;
+right: 12px;
+}
+#sqicon1
+{
+    position: relative;
+right: 12px;
+}
+#sqicon2
+{
+    position: relative;
+    right: 12px;
+    
+}
+a
+{
+    text-decoration: none;
+    color:tomato;
+}
+
+
+/* MEDIA QUERIES CSS */
+
+@media screen and (min-width: 300px) and (max-width: 415px) 
+{
+
+
+
+.tasklist
+{
+
+font-size: 3rem;
+font-weight: bolder;
+
+}
+.tadd
+{
+position: absolute;
+top:10%;
+bottom: 0; 
+left: 0;
+ right: 20%; 
+}
+#block
+{
+    display: none;
+}
+#block1
+{
+    display: none;
+}
+#block2
+{
+    display: none;
+}
+
+#block3
+{
+    display: none;
+}
+
+
+
+#hrl
+{
+    display: none;
+}
+#hrl1
+{
+    display: none;
+}
+#hrl2
+{
+    display: none;
+}
+#pend
+{
+    display: none; 
+}
+#pend1
+{
+    display: none; 
+}
+
+#pend2
+{
+    display: none; 
+}
+
+.paris{
+   
+    height:1px;
+    padding-bottom:50px;
+    
+    width: 19rem;
+    text-align:left;
+    position: relative;
+    left:2rem;
+    font-size: 24px;
+   
+}
+.todo{
+   
+    height:1px;
+    padding-bottom:50px;
+    width: 19rem;
+    text-align:left;
+    position: relative;
+    left:2rem;
+    font-size: 24px;
+    
+    
+}
+.mylist{
+    
+    height:1px;
+    padding-bottom:50px;
+    width: 19rem;
+    text-align:left;
+    position: relative;
+    left:2rem;
+    font-size: 24px;
+   
+}
+
+
+
+#plusleft
+{
+ position: relative;
+ right:16rem;
+ bottom: 8px;
+  
+}
+
+.ptodo
+{
+    display: flex;
+    flex-direction: column;
+   gap: 50px;
+    justify-content: center;
+   
+}
+
+    
+}

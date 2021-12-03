@@ -1,0 +1,179 @@
+
+.paris
+{
+    position: relative;
+    bottom: 10px;
+text-align:  center;
+font-weight: bolder;
+font-size: 65px;
+
+}
+.hr
+{
+    width: 200px;
+    position: relative;
+     top:110px;
+    right:300px;
+}
+.hr1
+{
+    width: 200px;
+     position: relative;
+     bottom:100px;
+    left:300px;
+}
+.back
+{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightslategray;
+    text-align:center;
+    position: relative;
+    bottom:50px;
+   
+}
+#bicon
+{
+    position:relative;
+    right:20px;
+    top:5px;
+    font-size:45px;
+}
+
+.pariscard
+{
+    position: relative;
+    bottom: 40px;
+    
+    border:tomato 2px solid;
+ 
+border-radius: 10px;
+box-shadow:silver 8px 8px 15px ;
+height: 450px;
+width: 450px;
+
+margin: auto;
+
+text-align: center;
+;
+}
+#completed
+{
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    color:red;
+    text-decoration-line: line-through;
+    position: relative;
+    top:90px;
+    left:20px;
+
+}
+#pending
+{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px; 
+    position: relative;
+    top: 110px;
+    right:10px;
+}
+.tripparis
+{
+   position: relative;
+ 
+  top:60px;
+}
+.hr2
+{
+    position: relative;
+    top: 70px;
+    left:80px;
+    width:292px;
+   
+    
+}
+#sqicon
+{
+    position: relative;
+   right:10px;
+   
+   
+}
+.plusicon
+{
+    position: relative;
+    top:280px;
+    left:160px;
+}
+a
+{
+    text-decoration: none;
+    color:tomato;
+}
+
+
+@media screen and (min-width:360px) and (max-width:415px)
+{
+
+    .paris
+    {
+        position: relative;
+        bottom: 10px;
+    text-align:  center;
+    font-weight: bolder;
+    font-size:40px;
+    margin: auto;
+  
+    
+    }
+#block
+{
+    display:none;
+}
+
+#bicon
+{
+   position: relative;
+   right: 9rem;
+    top:-78px;
+   font-size:40px;
+  
+
+}
+.pariscard
+{
+/* position: absolute;
+top:5%;
+bottom: 0; 
+left: 0;
+ right: 5%;  */
+ position: relative;
+ bottom:100px;
+ margin: auto;
+ width:16rem;
+ height: 26rem;
+ 
+
+}
+.hr2
+{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    width:195px;
+    
+     
+  
+}
+.plusicon
+{
+    position: relative;
+    top:15rem;
+    left:6rem;
+   
+}
+
+
+
+}
