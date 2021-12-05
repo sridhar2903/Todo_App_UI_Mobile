@@ -112,14 +112,16 @@ a
     color:tomato;
 }
 
+/* MEDIA QUERY CSS */
 
-@media screen and (min-width:360px) and (max-width:415px)
+
+ @media screen and (min-width:360px) and (max-width:415px)
 {
 
     .paris
     {
         position: relative;
-        bottom: 10px;
+        top: 10px;
     text-align:  center;
     font-weight: bolder;
     font-size:40px;
@@ -134,10 +136,9 @@ a
 
 #bicon
 {
-   position: relative;
-   right: 9rem;
-    top:-78px;
-   font-size:40px;
+  position: relative;
+  top:-25px;
+  right: 9rem;
   
 
 }
@@ -145,7 +146,7 @@ a
 {
 
  position: relative;
- bottom:100px;
+ bottom:70px;
  margin: auto;
  width:16rem;
  height: 26rem;
@@ -162,6 +163,12 @@ a
      
   
 }
+.hr{
+ display: none;
+}
+.hr1{
+display: none;
+}
 .plusicon
 {
     position: relative;
@@ -175,7 +182,82 @@ a
     color:tomato;
 }
 
+}
 
 
+/* MEDIA QUERY CSS FOR IPAD */
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+ {
+   
+
+    .paris
+    {
+        position: relative;
+        top: 230px;
+    text-align:  center;
+    font-weight: bolder;
+    font-size:40px;
+    margin: auto;
+  
+    
+    }
+#block
+{
+    display:none;
+}
+
+#bicon
+{
+  position: relative;
+  top:195px;
+  right: 9rem;
+  
 
 }
+.pariscard
+{
+
+ position: relative;
+ top:170px;
+ right:15px;
+ margin: auto;
+ width:16rem;
+ height: 26rem;
+ 
+
+}
+.hr2
+{
+    position: relative;
+    top: 70px;
+    left: 30px;
+    width:195px;
+    
+     
+  
+}
+.hr{
+ display: none;
+}
+.hr1{
+display: none;
+}
+.plusicon
+{
+    position: relative;
+    top:15rem;
+    left:6rem;
+   
+}
+a
+{
+    text-decoration: none;
+    color:tomato;
+}
+
+  }
+  
+
+ 

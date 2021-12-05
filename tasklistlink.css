@@ -148,17 +148,17 @@ a
 
 
 /* MEDIA QUERIES CSS */
+@media only screen
 
-@media screen and (min-width: 300px) and (max-width: 800px) 
+  and (max-width:415px) 
 {
-
-
 
 .tasklist
 {
 
 font-size: 3rem;
 font-weight: bolder;
+
 
 }
 .tadd
@@ -168,6 +168,7 @@ top:10%;
 bottom: 0; 
 left: 0;
  right: 20%; 
+ 
 }
 #block
 {
@@ -225,6 +226,7 @@ left: 0;
     position: relative;
     left:2rem;
     font-size: 24px;
+  
    
 }
 .todo{
@@ -236,7 +238,7 @@ left: 0;
     position: relative;
     left:2rem;
     font-size: 24px;
-    
+   
     
 }
 .mylist{
@@ -248,6 +250,7 @@ left: 0;
     position: relative;
     left:2rem;
     font-size: 24px;
+    
    
 }
 
@@ -258,6 +261,7 @@ left: 0;
  position: relative;
  right:16rem;
  bottom: 8px;
+
   
 }
 
@@ -267,8 +271,143 @@ left: 0;
     flex-direction: column;
    gap: 50px;
     justify-content: center;
+    
    
 }
 
     
 }
+
+/* 
+MEDIA QUERY CSS FOR IPAD */
+
+
+@media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  
+{
+    .tasklist
+    {
+    
+    font-size: 4rem;
+    font-weight: bolder;
+    
+    
+    }
+    .tadd
+    {
+    position: absolute;
+    top:22%;
+    bottom: 0; 
+    left: 0;
+     right: 2%; 
+     margin: auto;
+    }
+    #block
+    {
+        display: none;
+    }
+    #block1
+    {
+        display: none;
+    }
+    #block2
+    {
+        display: none;
+    }
+    
+    #block3
+    {
+        display: none;
+    }
+    
+    
+    
+    #hrl
+    {
+        display: none;
+    }
+    #hrl1
+    {
+        display: none;
+    }
+    #hrl2
+    {
+        display: none;
+    }
+    #pend
+    {
+        display: none; 
+    }
+    #pend1
+    {
+        display: none; 
+    }
+    
+    #pend2
+    {
+        display: none; 
+    }
+    
+    .paris{
+       
+        height:1px;
+        padding-bottom:50px;
+        
+        width: 19rem;
+        text-align:left;
+        position: relative;
+        left:15rem;
+        top:12rem;
+        font-size: 24px;
+       
+    }
+    .todo{
+       
+        height:1px;
+        padding-bottom:50px;
+        width: 19rem;
+        text-align:left;
+        position: relative;
+        left:15rem;
+        top:12rem;
+        font-size: 24px;
+        
+        
+    }
+    .mylist{
+        
+        height:1px;
+        padding-bottom:50px;
+        width: 19rem;
+        text-align:left;
+        position: relative;
+        left:15rem;
+        top:12rem;
+        font-size: 24px;
+       
+    }
+         #plusleft
+     {
+        position: relative;
+         top:5px;
+         right: 280px;
+         z-index: 10;
+         
+         }
+       
+    .ptodo
+    {
+        display: flex;
+        flex-direction: column;
+       gap: 50px;
+        justify-content: center;
+       
+    }
+ 
+
+  }
+
+
+  
